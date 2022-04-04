@@ -1,0 +1,27 @@
+.app-header {
+   background-color: #eee;
+   color: #333; 
+   padding: 2rem;
+   display: flex;
+   justify-content: space-between;
+
+   h1 {
+       margin: 0;
+   }
+
+   nav {
+       display: flex;
+       align-items: center;
+   }
+
+   ul {
+       list-style: none;
+       li {
+
+           a {
+               text-decoration: none;
+               color: #3377cc;
+           }
+       }
+   }
+}
