@@ -1,6 +1,6 @@
 import './app.scss';
 
-export function App() {
+function App() {
   return <footer>Copyright &copy; {new Date().getFullYear()}</footer>;
 }
 

@@ -15,7 +15,7 @@ module.exports = (config) => {
         name: 'FooterApp',
         filename: 'remoteEntry.js',
         exposes: {
-          './Footer': './apps/footer/src/app/app.tsx',
+          './Footer': './apps/footer/src/app/parcelApp.tsx',
         },
         shared: {
           ...deps,
